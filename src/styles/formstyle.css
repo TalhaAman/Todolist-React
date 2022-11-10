@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(43, 144, 226);
+  padding-top: 100px;
+  font-family: Arial, Helvetica, sans-serif
+}
+.heading{
+  font-size: 30px;
+  color: white;
+  display: block;
+}
+.todolist{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.form-label{
+  color: white;
+  font-size: 20px;
+  margin-left: 110px;
+}
+.form-input{
+  width: 300px;
+  padding: 10px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.form-input:focus{
+  outline: 1px solid rgb(55, 1, 193);
+}
+.trash {
+  color: white;
+  padding-left: 280px;
+}
+.todo-heading {
+  color: white;
+}
+.todo-item{
+  margin-top: 20px;
+}
+hr{
+  border: 0.5px solid rgb(2, 26, 148);
+}
